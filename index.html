@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robux Narxlari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loading screen -->
+<div id="loading-screen">
+    <div class="loading-spinner"></div>
+    <p>Yuklanmoqda...</p>
+</div>
+
+<header>
+    <h1>Robux Narxlari</h1>
+    <p>Saytni mobil uchun optimallashtirishni olib tashladik</p>
+</header>
+
+<!-- Menu -->
+<div class="menu-container">
+    <button class="menu-button" onclick="showPrices()">Robux Narxlari</button>
+    <button class="menu-button" onclick="showSupport()">SpectraSoft Support</button>
+    <button class="menu-button" onclick="showSettings()">Settings</button>
+</div>
+
+<!-- Prices Section -->
+<div id="prices-section" class="prices" style="display: none;">
+    <div class="price-item">
+        <div class="robux-logo"></div>
+        <p>40 Robux - 7500 So'm</p>
+    </div>
+    <div class="price-item">
+        <div class="robux-logo"></div>
+        <p>80 Robux - 14000 So'm</p>
+    </div>
+    <div class="price-item">
+        <div class="robux-logo"></div>
+        <p>200 Robux - 32000 So'm</p>
+    </div>
+    <div class="price-item">
+        <div class="robux-logo"></div>
+        <p>400 Robux - 60000 So'm</p>
+    </div>
+    <div class="price-item">
+        <div class="robux-logo"></div>
+        <p>800 Robux - 122000 So'm</p>
+    </div>
+    <div class="price-item">
+        <div class="robux-logo"></div>
+        <p>1000 Robux - 152000 So'm</p>
+    </div>
+</div>
+
+<!-- Support Section -->
+<div id="support-section" style="display: none; text-align: center;">
+    <p>Savollaringizni ushbu Gmail manziliga yozing: <b>spectrasoftteam@gmail.com</b></p>
+</div>
+
+<!-- Settings Section -->
+<div id="settings-section" style="display: none; text-align: center;">
+    <h2>Settings</h2>
+    <button class="menu-button" onclick="toggleDarkMode()">Dark Mode: <span id="dark-mode-status">Off</span></button>
+</div>
+
+<footer>
+    <p>&copy; 2024 SpectraSoft. Barcha huquqlar himoyalangan.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
